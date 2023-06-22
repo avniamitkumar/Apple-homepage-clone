@@ -1,0 +1,450 @@
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+.heading
+{
+    display: flex;
+    margin:auto;
+   
+    /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-weight: lighter; 
+    font-family: -apple-system, BlinkMacSystemFont;
+    
+}
+header{
+   /* // height: 100px;
+    width:100px;
+    */
+    position: sticky;
+    top:0px;
+    background-color: rgb(78, 78, 78);
+    align-content: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.nav ul
+{
+    display:flex;
+    list-style:none;
+    justify-content: space-between;
+    
+}
+.nav ul li{
+    margin-top: 12px;
+    padding:10px;
+    display: flex;
+    margin-right:20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.im{
+    height: 45px;
+    width:40px;
+    margin-right: 20px;
+    margin:10px;
+    padding:10px;
+}
+
+.nav i{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+.line
+{
+    margin:10px;
+    background-color: white;
+    font-size: 16px;
+   color: black;
+   
+   font-weight: light;
+   text-align: center;
+}
+.line a{
+    
+    color: rgb(59, 147, 242);
+}
+.line i{
+   
+    color: rgb(59, 147, 242);
+}
+ .first
+{
+    width:100%;
+    height:600px;
+    background: url(./img/macbook15.jpeg)no-repeat center center /cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    text-align: center;
+}
+/* .first-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+
+.first-content h1
+{
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+.first-content h4
+{
+    font-size: 1.5rem;
+    font-weight:300;
+}
+.first-content .inner a
+{
+    color:  rgb(59, 147, 242);
+    /* margin-right: 24px; */
+}
+.first-content .inner i
+{
+    color:  rgb(59, 147, 242);
+    margin-right: 50px;
+}
+.second
+{
+    width:100%;
+    height:600px;
+    background: url(./img/iphon2.jpeg)no-repeat center center /cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.third
+{
+    width:100%;
+    height:600px;
+    background: url(./img/iphonepro.jpeg)no-repeat center center /cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.second-content h1
+{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 500;
+}
+.second-content h4
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight:300;
+}
+.second-content .inner a
+{
+    color:  rgb(59, 147, 242);
+    /* margin-right: 24px; */
+}
+.second-content .inner i
+{
+    color:  rgb(59, 147, 242);
+    margin-right: 50px;
+}
+/* HOME CARDS */
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    margin: 10px;
+    /* justify-content: center;
+    align-content: center; */
+    grid-auto-rows: 50rem;
+    
+}
+ .one
+{
+   
+    background: url(./img/card1.jpeg)no-repeat center center/cover;
+}
+.two
+{
+    background: url(./img/card2.jpeg)no-repeat center center/cover;
+}
+.three
+{
+    background: url(./img/card3.jpeg)no-repeat center center/cover;
+}.four
+{
+    background: url(./img/card4.jpeg)no-repeat center center/cover;
+}.five
+{
+    background: url(./img/card5.jpeg)no-repeat center center/cover;
+}.six
+{
+    background: url(./img/card6.jpeg)no-repeat center center/cover;
+}
+
+.card-content h1
+{
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 500;
+}
+.card-content h4
+{
+    color: black;
+    font-size: 1.5rem;
+    font-weight:300;
+}
+.card-content .inner a
+{
+    color:  rgb(59, 147, 242);
+    /* margin-right: 24px; */
+}
+.card-content .inner i
+{
+    color:  rgb(59, 147, 242);
+    margin-right: 50px;
+}
+.card-content
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+
+    align-items: center;
+    padding:80px;
+}
+
+
+/*SLIDESHOW*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* //upper// */
+.upper
+{
+    background-color: #f2f2f2;
+}
+.tnc {
+    padding-top: 10px;
+   margin-right: 180px;
+   margin-left: 180px;
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+hr {
+    /* display: block; */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-top: 1px solid gray;
+  padding-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  width:80%;
+  margin-bottom: 0px;
+
+
+
+}
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+    margin:0px;
+  }
+.inner-links {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .links ul{
+    list-style: none;
+  }
+  .links li {
+    line-height: 2.8;
+  }
+
+  .links li a{
+    color: #616161;
+
+  }
+  .links li a:hover{
+    text-decoration: underline;
+  }
+  .as {
+    font-weight: bold;
+  }
+  .lf {
+    background-color: #f2f2f2;
+    /* text-align: center; */
+ 
+    margin:auto;
+  }
+  .lf a{
+    color: rgb(59, 147, 242);
+    text-decoration: underline;
+    
+  }
+ .lf p{
+    color: #616161;
+    margin-right: 120px;
+    margin-left: 120px;
+    font-weight: light;
+    font-size: 12px;
+    padding:12px;
+  }
+  .last
+  {
+    background-color: #f2f2f2;
+   padding-right:60px;
+    padding-left: 60px;;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    color:#616167;
+    padding-bottom: 20px;
+  }
+  .last .cop a
+  { 
+    color:#616167;
+    font-size: 12px;;
+
+
+  }
+.last ul
+{
+    display: flex;
+color:#616167;
+font-size: 12px;;
+
+}
+.last ul li {
+  list-style: none;
+  padding: 12px;
+  
+  height:0.2rem;
+  
+}
+.last ul li .m{
+    border-right:1px solid #616161;
+    padding-right:4px;
+    margin-right: 3px;
+    /* margin:4px; */
+}
+.last ul a{
+    color:#616167;
+}
